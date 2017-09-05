@@ -1,0 +1,5 @@
+tomtom-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin80.xpm usr/share/pixmaps
+debian/tomtom-qt.desktop usr/share/applications
+debian/tomtom-qt.protocol usr/share/kde4/services/

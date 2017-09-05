@@ -1,0 +1,2 @@
+debian/bin/tomtomd usr/bin
+src/tomtomd usr/lib/tomtom

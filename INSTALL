@@ -1,0 +1,9 @@
+Building Tomtom
+
+See doc/readme-qt.rst for instructions on building Tomtom QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Tomtom.
+
+See doc/build-*.txt for instructions on building Tomtomd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Tomtom.

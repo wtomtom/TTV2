@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+umask 077
+
+basedir=~/.tomtom
+dbfile="$basedir/DB_CONFIG"
+cfgfile="$basedir/tomtom.conf"
+
+[ -e "$basedir" ] || mkdir "$basedir"
+
+# tomtom does not clean up DB log files by default
+[ -e "$dbfile" ] || echo 'set_flags DB_LOG_AUTOREMOVE' > "$dbfile"
+
+exec /usr/lib/tomtom/tomtom-qt "$@"
